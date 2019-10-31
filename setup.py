@@ -52,7 +52,7 @@ setup(
     install_requires=INSTALL_REQUIRED,
     extras_require={
         'onelogin': ['python-saml>=2.4.0'],
-        'sentry': ['raven[flask]==6.6.0'],
+        'sentry': ['raven[flask]==6.10.0'],
         'googleauth': ['google-auth>=1.6.3'],
         'tests': [
             'pytest==3.4.2',
